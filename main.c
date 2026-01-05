@@ -40,6 +40,43 @@ void limpiar_pantalla()
 #endif
 }
 
+void imprimir_diccionario_archivo(lista dictionary[size_dic])
+{
+    FILE *archivo = fopen("diccionarioEjecucion.txt", "w");
+    if (archivo == NULL)
+    {
+        printf("Error al crear el archivo diccionarioEjecucion.txt\n");
+        return;
+    }
+
+    fprintf(archivo, "DICCIONARIO - ESTADO DE EJECUCIÓN\n");
+    fprintf(archivo, "=================================\n\n");
+
+    for (int i = 0; i < size_dic; i++)
+    {
+        if (!Empty(&dictionary[i]))
+        {
+            fprintf(archivo, "Hash [%d]\n", i);
+            fprintf(archivo, "-----------------\n");
+
+            posicion p = First(&dictionary[i]);
+            while (p != NULL)
+            {
+                elemento e = Position(&dictionary[i], p);
+                fprintf(archivo, "Palabra: %s\n", e.word);
+                fprintf(archivo, "Definición: %s\n\n", e.def);
+
+                p = Following(&dictionary[i], p);
+            }
+
+            fprintf(archivo, "\n");
+        }
+    }
+
+    fclose(archivo);
+    printf("Diccionario exportado correctamente a diccionarioEjecucion.txt\n");
+}
+
 int main(int argc, char const *argv[])
 {
     lista dictionary[size_dic];
@@ -181,6 +218,7 @@ int main(int argc, char const *argv[])
 
     } while (opcion != 7);
 
+    // imprimir_diccionario_archivo(dictionary);
     destroy_dic(dictionary);
 
     return 0;

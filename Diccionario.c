@@ -80,7 +80,7 @@ int read_word(lista dictionary[size_dic], hash_selector s)
     while (c == ' ' || c == '\t')
         c = getchar();
 
-    while (c != '.' && c != EOF && j < def_max - 1)
+    while (c != '\n' && c != EOF && j < def_max - 1)
     {
         e.def[j++] = (char)c;
         c = getchar();
