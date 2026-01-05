@@ -3,7 +3,7 @@
 #include "TADListaDL.h"
 
 #define word_max 101
-#define def_max 251
+#define def_max 281
 #define hash_base 1117
 #define size_dic 2000
 
