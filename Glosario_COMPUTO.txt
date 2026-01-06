@@ -3,7 +3,7 @@ Acceso secuencial: se dice que una unidad de almacenamiento de informacion es de
 Activex: tecnologia para la interaccion entre el pc e internet. Ha sido desarrollada por microsoft y formara parte de los futuros sistemas operativos, sustituyendo a la tecnologia ole.
 Add-on: modulos que proporcionan nuevas funcionalidades, mejorando las prestaciones de un programa. Tambien se llaman plug-in.
 Administrador de ficheros: aplicacion que permite realizar funciones como la gestion de archivos y la impresion. Con el administrador de ficheros de windows se pueden crear, copiar, buscar o borrar directorios o ficheros, etc.
-Adsl  (asymmetric digital subscriber line): Sistema asimetrico de transmision de datos sobre lineas telefonicas convencionales.
+Adsl(asymmetric digital subscriber line): Sistema asimetrico de transmision de datos sobre lineas telefonicas convencionales.
 Agp: puerto de alta velocidad en la placa base que se utiliza para conectar las tarjetas graficas
 Alfanumerico: cualquier combinacion de numeros, letras y simbolos. Por extension se suele aplicar a la parte izquierda del teclado para diferenciarlo del pequeño teclado numerico situado a la derecha del mismo.
 Algoritmo: conjunto de instrucciones concretas y detalladas mediante el cual se consigue una accion determinada. Por ejemplo, una receta de cocina seria un algoritmo que indica el numero de pasos necesarios para preparar una comida.
@@ -205,7 +205,7 @@ Direccion De Memoria: Cada una de las posiciones de la memoria de un ordenador; 
 Direccion Ip: Serie de numeros que se asigna a cada ordenador conectado a lnternet (cliente de Internet) para encaminar la informacion al mismo (por ejemplo: 193.127.85.01).
 Direccion Ip Dinamica: Direccion IP que los proveedores de acceso a Internet asignan generalmente a sus clientes. Es distinta cada vez que estos se conectan a Internet.
 Direccion Ip Estatica: Direccion IP fija que los proveedores de acceso a Internet asignan a algunos de sus clientes.
-Direccion Url (UniformResource Locator) Formato de las direcciones de las paginas web.: 
+Direccion Url(UniformResource Locator) Formato de las direcciones de las paginas web.: 
 Directorio Cache: Carpeta del disco duro de un ordenador en la que se almacenan los elementos  (graficos, textos, sonidos...) de las paginas web abiertas por un navegador.
 Directorio: Carpeta del disco duro que contiene ficheros (programas, textos, graficos...). Imprescindibles para tener ordenada la informacion en el disco duro. Dentro de una carpeta tambien puede haber otras carpetas (subdirectorios).
 Disco: Dispositivo de almacenamiento donde el ordenador puede leer o escribir datos.
@@ -267,9 +267,7 @@ EMA: 1. (Enterprise Management Architecture) Arquitectura de gestion de empresas
 EMA: 2. (Electronic Mail Association) Asociacion de Correo Electronico. Organizacion de miembros fundada en 1983 con mas de 250 vendedores y compañias de usuarios involucrados en mensajes electronicos e intercambio de informacion
 Ensamblador: Lenguaje de programacion que esta a un paso del lenguaje de maquina. El ensamblador traduce cada sentencia del lenguaje ensamblador a una instruccion de maquina.
 Entidades: Son objetos concretos o abstractos que presentan interes para el sistema y sobre los que se recoge informacion que sera representada en un sistema de bases de datos. Por ejemplo, clientes, proveedores y facturas serian entidades en el entorno de una 
-Entorno: Es otra de las denominaciones que se utilizan para definir el sistema operativo en el que se trabaja.
-Los sistemas operativos DOS o UNIX son entornos basados en texto, mientras que Windows, OS2 o MacOS son entornos graficos.: 
-Linux es un entorno basado en texto, aunque en las distribuciones actuales existen entornos graficos para el mismo.: 
+Entorno: Es otra de las denominaciones que se utilizan para definir el sistema operativo en el que se trabaja. Los sistemas operativos DOS o UNIX son entornos basados en texto, mientras que Windows, OS2 o MacOS son entornos graficos.: Linux es un entorno basado en texto, aunque en las distribuciones actuales existen entornos graficos para el mismo.:
 EPP: (Enhanced Parallel Port) Se trata de un estandar del puerto paralelo para soportar la comunicacion bidireccional.
 EPROM: (Erasable Programmable ROM) ROM programable y borrable.Son las mas populares, y su aspecto es muy caracteristico, en efecto se presenta como un circuito integrado normal, pero con una cubierta de cuar-zo al vacio de forma que el chip pueda ser alcanz
 Las EPROM: se realizan con muy diversas tecnicas; las mas corriente es la de-nominada *gate flotante. Se acumula una carga en un gate de silicio policris-talino que flota sobre un sustrato, tambien de silicio, pero aislado por una capa de bioxido de silicio.
